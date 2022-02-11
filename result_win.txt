@@ -1,0 +1,20 @@
+・他に何もしないとき
+kazuki@DESKTOP-JFE69U1:/mnt/c/Users/higak/Doc/Lect/B2_2/os/os8.1/os8.1$ time perl display_js.pl > datal.html
+
+real    0m14.501s
+user    0m3.281s
+sys     0m10.500s
+
+・perl -de 0で@a = 1..200000000を動かしているとき
+kazuki@DESKTOP-JFE69U1:/mnt/c/Users/higak/Doc/Lect/B2_2/os/os8.1/os8.1$ time perl display_js.pl > datal.html
+
+real    0m13.717s
+user    0m2.922s
+sys     0m10.609s
+
+・pythonでa = [i for i in ragne(1, 200000000)]を動かしているとき
+kazuki@DESKTOP-JFE69U1:/mnt/c/Users/higak/Doc/Lect/B2_2/os/os8.1/os8.1$ time perl display_js.pl > datal.html
+
+real    0m13.455s
+user    0m2.906s
+sys     0m10.219s
