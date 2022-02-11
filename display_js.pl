@@ -11,7 +11,7 @@ my $base = 0;
 # my $malloc_test = "./a.out -m 10000000 -l 10 -u 16";
 # my $malloc_test = "ssh urasoe.ie.u-ryukyu.ac.jp ./a.out -m 10000000 -l 10 -u 16";
 # my $malloc_test = "ssh urasoe.ie.u-ryukyu.ac.jp ./a.out -u 16 -m 1000000 -l 10";
-my $malloc_test = "./malloc_test -m 1000000 -l 10";
+my $malloc_test = "./malloc_test -m 10000000 -l 10";
 # my $malloc_test = "./malloc_test -m 100000 -l 10";
 # my $malloc_test = "./malloc_test -m 10000000 -l 10";
 
